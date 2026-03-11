@@ -32,6 +32,11 @@ public class AddressBookController {
 	{
 		return addressbookservice.deleteContact(firstName);
 	}
+	@PostMapping("/{name}")
+	public String createAddressBook(@PathVariable String name)
+	{
+		return addressbookservice.addAddressBook(name);
+	}
 	
 
 }
