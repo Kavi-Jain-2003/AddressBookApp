@@ -36,6 +36,18 @@ public class AddressBookService {
 		}
 		return "contact not found with such name";
 	}
+	public String deleteContact(String firstName)
+	{
+		for(ContactPerson contact:contactList)
+		{
+			if(contact.getFirstName().equalsIgnoreCase(firstName))
+			{
+				contactList.remove(contact);
+				return "Contact deleted successfully";
+			}
+		}
+		return "no contact with such name exists";
+	}
 
 	
 	

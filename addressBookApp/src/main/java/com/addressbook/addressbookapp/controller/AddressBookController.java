@@ -27,6 +27,11 @@ public class AddressBookController {
 	{
 		return addressbookservice.updateContact(firstName, contact);
 	}
+	@DeleteMapping("/contact/{firstName}")
+	public String deleteContact(@PathVariable String firstName)
+	{
+		return addressbookservice.deleteContact(firstName);
+	}
 	
 
 }
