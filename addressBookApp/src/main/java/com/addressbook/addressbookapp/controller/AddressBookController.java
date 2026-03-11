@@ -22,6 +22,11 @@ public class AddressBookController {
 	{
 	    return addressbookservice.getAllContacts();
 	}
+	@PutMapping("/contact/{firstName}")
+	public String updateContact(@PathVariable String firstName,@RequestBody ContactPerson contact)
+	{
+		return addressbookservice.updateContact(firstName, contact);
+	}
 	
 
 }

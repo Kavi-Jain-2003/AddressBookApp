@@ -17,6 +17,25 @@ public class AddressBookService {
 	{
 		return contactList;
 	}
+	public String updateContact(String firstName,ContactPerson updatedContact)
+	{
+		for(ContactPerson contact:contactList)
+		{
+			if(contact.getFirstName().equalsIgnoreCase(firstName))
+			{
+				contact.setLastName(updatedContact.getLastName());
+				contact.setAddress(updatedContact.getAddress());
+				contact.setCity(updatedContact.getCity());
+				contact.setState(updatedContact.getState());
+				contact.setZip(updatedContact.getZip());
+				contact.setPhoneNumber(updatedContact.getPhoneNumber());
+				contact.setEmail(updatedContact.getEmail());
+				return "Contact updated successfully";
+			}
+			
+		}
+		return "contact not found with such name";
+	}
 
 	
 	
