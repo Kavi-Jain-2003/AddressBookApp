@@ -1,4 +1,6 @@
 package com.addressbook.addressbookapp.controller;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,9 +17,10 @@ public class AddressBookController {
 	{
 		return addressbookservice.addContact(contact);
 	}
-	@GetMapping("/")
-	public String home() {
-	    return "Address Book Application is Running";
+	@GetMapping("/contact")
+	public List<ContactPerson> getContacts()
+	{
+	    return addressbookservice.getAllContacts();
 	}
 	
 

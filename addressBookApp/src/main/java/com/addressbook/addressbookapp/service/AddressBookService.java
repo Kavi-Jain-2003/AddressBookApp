@@ -1,5 +1,6 @@
 package com.addressbook.addressbookapp.service;
 import java.util.ArrayList;
+
 import java.util.List;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +12,10 @@ public class AddressBookService {
 	{
 		contactList.add(contact);
 		return "contact added successfully";
+	}
+	public List<ContactPerson> getAllContacts()
+	{
+		return contactList;
 	}
 
 	
