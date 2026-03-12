@@ -3,3 +3,6 @@
 <h1>UseCase2- Adding contacts and edit contacts by name</h1>
 <h1>UseCase3- Edit contacts By Name</h1>
 <h1>UseCase4- Delete contacts by Name</h1>
+<h1>UseCase5- Adding multiple Names</h1>
+<h1>UseCase6- Adding unique Names</h1>
+
