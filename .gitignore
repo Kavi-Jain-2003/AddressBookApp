@@ -1,12 +1,39 @@
-# Maven wrapper and build files
-.mvn/
+# Ignore build folder
+
 target/
 
-# Eclipse / IDE files
-.settings/
+# Maven wrapper
+
+.mvn/
+
+# IDE files
+
 .classpath
 .project
+.settings/
+.springBeans
+.sts4-cache
 
-# Maven wrapper scripts
-mvnw
-mvnw.cmd
+# IntelliJ
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+
+.vscode/
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Ignore gitignore itself
+
+.gitignore
