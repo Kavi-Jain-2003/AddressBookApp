@@ -1,0 +1,47 @@
+# Ignore build folder
+
+target/
+
+# Maven wrapper
+
+.mvn/
+
+# IDE files
+
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+
+.vscode/
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Ignore gitignore itself
+
+.gitignore
+
+
+bin/
+
+
+.idea/
+
+
