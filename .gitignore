@@ -1,0 +1,12 @@
+# Maven wrapper and build files
+.mvn/
+target/
+
+# Eclipse / IDE files
+.settings/
+.classpath
+.project
+
+# Maven wrapper scripts
+mvnw
+mvnw.cmd
