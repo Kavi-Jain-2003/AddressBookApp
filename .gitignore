@@ -37,3 +37,8 @@ Thumbs.db
 # Ignore gitignore itself
 
 .gitignore
+
+
+bin/
+target/
+
