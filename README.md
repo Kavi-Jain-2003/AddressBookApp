@@ -1,5 +1,8 @@
 <h1>AddressBookApp Using SpringBoot</h1>
-```
+## 🌿 Branch Structure
+
+```text
+
 main
 └── dev
     └── feature/UC1-AddingContacts
